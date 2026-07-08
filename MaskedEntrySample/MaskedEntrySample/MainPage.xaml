@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:editors="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs"
+             Title="How to hide prompt character in .NET MAUI SfMaskedEntry"
+             x:Class="MaskedEntrySample.MainPage">
+
+    
+    <VerticalStackLayout>
+
+        <editors:SfMaskedEntry WidthRequest="250"
+                       ClearButtonVisibility="WhileEditing"
+                       MaskType="RegEx"
+                       Mask="[A-Za-z0-9._%-]+@[A-Za-z0-9]+\.[A-Za-z]{2,3}">
+        </editors:SfMaskedEntry>
+
+    </VerticalStackLayout>
+
+    
+</ContentPage>
